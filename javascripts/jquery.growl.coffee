@@ -51,7 +51,7 @@ class Growl
     $growl.find(".#{@settings.namespace}-close").on("click", @close)
 
   unbind: ($growl = @$growl()) =>
-    $growl.find(".#{@settings.namespace-close}").off("click", @close)
+    $growl.find(".#{@settings.namespace}-close").off("click", @close)
 
   cycle: ($growl = @$growl()) =>
     $growl
